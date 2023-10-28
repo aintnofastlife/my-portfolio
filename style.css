@@ -18,24 +18,39 @@ h3 {
   font-family: HiraMinProN-W3;
 }
 
+h4 {
+  font-family: HiraMinProN-W3;
+  font-size: 50px;
+  text-align: center;
+}
+
 p {
   text-indent: 1rem;
 }
 .経歴 {
   background-color: rgba(255, 255, 255, 0.45);
-  padding: 5rem;
+  padding-left: 15rem;
+  padding-right: 15rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   margin: 5rem;
 }
 
 .制作環境 {
   background-color: rgba(255, 255, 255, 0.45);
-  padding: 5rem;
+  padding-left: 15rem;
+  padding-right: 15rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   margin: 5rem;
 }
 
 .RecentWorks {
   background-color: rgba(255, 255, 255, 0.45);
-  padding: 3rem;
+  padding-left: 15rem;
+  padding-right: 15rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   margin: 5rem;
 }
 
