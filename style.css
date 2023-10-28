@@ -1,0 +1,21 @@
+#会話 {
+  outline: solid 1px black;
+  text-align: center;
+}
+body {
+  background-image: url(img/Sonatine_1.jpg);
+  background-size: cover;
+}
+h1 {
+  font-family: HiraMinProN-W3;
+  font-size: 100px;
+  text-align: center;
+}
+.経歴 {
+  background-color: rgba(255, 255, 255, 0.45);
+  padding: 3rem;
+  margin: 5rem;
+}
+.制作環境 {
+  background-color: rgba(255, 255, 255, 0.45);
+}
