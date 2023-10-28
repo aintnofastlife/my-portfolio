@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="ja"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./My Portfolio_files/ress.min.css">
+    <link rel="stylesheet" href="./My Portfolio_files/style.css">
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <h1>北野 武の世界</h1>
+
+    <div class="経歴">
+      <h2>career</h2>
+      <p>1999年、三重県にて生まれる。
+      </p><p>2013年、ギターを始める。
+      </p><p>2018年、名古屋大学Edel Rote Jazz Orchestraに加入。3年間ギタリストとして活動する。
+      </p><p>2020年、ロックダウンで演奏活動が制限される中、PCを用いた音楽制作を開始する。
+      </p><p>2022年、コンポーザー・アレンジャー・エンジニアとして活動を開始。
+      </p><p>
+      現在、名古屋のミュージシャンを中心にレコーディング監修や楽曲のミックス・マスタリングを手掛ける。
+      </p>
+    </div>
+
+    <div class="制作環境">
+      <h2>equipment</h2>
+      <br>
+      <h3>Software</h3>
+
+      <p>Ableton Live (for producing, mixing, mastering)
+      </p><p>Logic Pro X (for producing, mixing, mastering)
+      </p><p>Max for Live 
+      <br>
+      <br>
+      </p><h3>Hardware</h3>
+      <p>speaker : Fostex PM0.3h, Fostex PM-SUBmini
+      </p><p>audio interface : MOTSU M4
+      </p><p>guitar : tele-shaped guitar (details unknown)
+      </p><p>bass guitar : Fender Jazz Bass, Aria Pro II Professional Bass
+      </p><p>synth : KORG minilogue, CASIO casiotone 401
+    </p></div>
+
+    <div class="RecentWorks">
+      <h2>RecentWorks</h2>
+      <br>
+    <div class="iframe">
+      "<a href="https://linkco.re/Cu03evMe">Jubach</a>" by <a href="https://www.tunecore.co.jp/artists?id=788211&amp;lang=ja">Magatsui</a>
+      <br>
+      (mix・mastering)
+      <br>
+      <br>
+      <iframe src="./My Portfolio_files/Cu03evMe.html" width="300" height="600" frameborder="0"></iframe>
+    </div>
+    </div>
+
+    <div class="会話">
+      たけしと会話
+      <br>
+      <br>
+      <input id="talk" placeholder="会話してみよう">
+      <button id="add-button">話す</button>
+    </div>
+
+    <script src="./My Portfolio_files/main.js"></script>
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
