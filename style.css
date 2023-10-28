@@ -10,7 +10,9 @@ h1 {
   font-family: HiraMinProN-W3;
   font-size: 100px;
   text-align: center;
+  background-color: rgba(255, 255, 255, 0.45);
 }
+
 .経歴 {
   background-color: rgba(255, 255, 255, 0.45);
   padding: 3rem;
